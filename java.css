@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    animation: fadein 1s;
+}
+li{
+    list-style: none;
+}
+.hidden {
+    display: none;
+}
+img{
+    width: 100vw;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.inputcss {
+    width: 400px;
+    height: 35px;
+    border: none;
+    background: none;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+}
+.inputcss::placeholder{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.inputcss2 {
+    border: none;
+    display: none;
+}
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    margin-top: 160px;
+}
+#weather{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.weather-color{
+    color: #fff;
+    font-size: 1rem;
+}
+#clock{
+    font-size: 6rem;
+    margin: 0;
+    color: #fff;
+}
+#greeting{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.todo{
+    border: none;
+    background: none;
+    width: 20vw;
+}
+.todo::placeholder{
+    background-color: #eee;
+    color: rgb(29, 29, 29);
+    text-align: center;   
+}
+#todo-list{
+    padding-left: 0;
+    margin-top: 5px;
+}
+#quote{
+    margin-top: 120px;
+    color: bisque;
+}
+#quote span:first-child {
+    color: beige;
+}
+#quote span:last-child {
+    color: snow;
+}
+.quote-span{
+    font-size: 0.5rem;
+}
+.quote-fontsize{
+    font-size: 1rem;
+}
